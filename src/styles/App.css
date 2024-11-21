@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.task-form { 
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.task-form input,
+.task-form textarea,
+.task-form select,
+.task-form button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.task-card {
+  background: #fff;
+  border: 2px solid;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.task-card button {
+  padding: 5px 10px;
+  color: white;
+  background: red;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
